@@ -1,7 +1,11 @@
+import { BotaoStyle } from "../../components/Botao/style";
+import Quiz from "../../components/Quiz";
+
 const GamePage = () => {
     return ( 
         <div>
-            Game
+            <Quiz></Quiz>
+            <BotaoStyle>enviar</BotaoStyle>
         </div>
      );
 }
