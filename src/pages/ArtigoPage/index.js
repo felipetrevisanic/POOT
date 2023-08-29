@@ -13,6 +13,7 @@ const ArtigoPage = () => {
             <Link target="_blank"  to='https://www.w3schools.com/java/java_polymorphism.asp'>Polimorfismo</Link>
             <Link target="_blank"  to='https://www.w3schools.com/java/java_abstract.asp'>Abstração</Link>
             <Link target="_blank"  to='https://www.w3schools.com/java/java_interface.asp'>Interface</Link>
+            <Link target="_blank"  to='https://www.w3schools.com/java/java_interface.asp'>Interface</Link>
         </Div>
      );
 }
