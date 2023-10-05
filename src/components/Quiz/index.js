@@ -28,14 +28,14 @@ const Quiz = () => {
                 O que é herança?
             </CardPergunta>
             <BlocoOpcao>
-                <BotaoOpcao value={'a'}  onClick={() => handleOptionClick('a')}>A</BotaoOpcao>
+                <BotaoOpcao value={'A'}  onClick={() => handleOptionClick('a')}>A</BotaoOpcao>
                 <CardOpcao>
                     é uma descrição de um objeto, enquanto um objeto é uma instância de uma classe.
                 </CardOpcao>
 
             </BlocoOpcao>
             <BlocoOpcao>
-                <BotaoOpcao value={'b'}  onClick={() => handleOptionClick('b')}>B</BotaoOpcao>
+                <BotaoOpcao value={'B'}  onClick={() => handleOptionClick('b')}>B</BotaoOpcao>
                 <CardOpcao>
                     é um princípio de POO que oculta as informações de implementação de um objeto de seus usuários.
                 </CardOpcao>
@@ -48,17 +48,17 @@ const Quiz = () => {
                 </CardOpcao>
             </BlocoOpcao>
             <BlocoOpcao>
-                <BotaoOpcao value={'d'}  onClick={() => handleOptionClick('d')}>D</BotaoOpcao>
+                <BotaoOpcao value={'D'}  onClick={() => handleOptionClick('d')}>D</BotaoOpcao>
                 <CardOpcao>
                     A herança é um princípio de POO que permite que uma classe herde as classes e comportamentos de outra propriedade.
                 </CardOpcao>
             </BlocoOpcao>
-            <BlocoOpcao>
-                <BotaoOpcao value={'e'}  onClick={() => handleOptionClick('e')}>E</BotaoOpcao>
-                <CardOpcao>
-                    é uma descrição de uma classe
-                </CardOpcao>
-            </BlocoOpcao>
+            // <BlocoOpcao>
+            //     <BotaoOpcao value={'e'}  onClick={() => handleOptionClick('e')}>E</BotaoOpcao>
+            //     <CardOpcao>
+            //         é uma descrição de uma classe
+            //     </CardOpcao>
+            // </BlocoOpcao>
         </div>
     );
 }
