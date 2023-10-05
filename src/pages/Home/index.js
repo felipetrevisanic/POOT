@@ -4,8 +4,8 @@ const HomePage = () => {
     return ( 
         <div>
             <h1>Bem-vindo ao POOT</h1>
-            <h2>Uma pagina web que ira utilizar de recursos para te ensinar de uma vez por todas a programação orientada ao objeto</h2>
-            <h3>Você pode se orientar na nossa págia atraves dos botões a esquerda, em que cada um respresenta...</h3>
+            <h2>Uma página web que irá utilizar de recursos para te ensinar de uma vez por todas a Programação Orientada ao Objetos</h2>
+            <h3>Você pode se orientar na nossa página atraves dos botões a esquerda, em que cada um representa...</h3>
             <Quadro>
                 <Nota>
                     <NotaTitulo>Artigos</NotaTitulo>
