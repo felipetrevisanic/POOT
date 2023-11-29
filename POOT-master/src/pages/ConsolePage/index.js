@@ -3,7 +3,7 @@ import Botao from "../../components/Botao";
 import Console from "../../components/Console";
 
 const ConsolePage = () => {
-  const executarCodigo = () => {
+   const executarCodigo = () => {
     // Limpar a saída anterior
     document.getElementById('output').innerHTML = '';
 
@@ -22,12 +22,8 @@ const ConsolePage = () => {
       // Executar o código
       eval(codigo);
 
-      // Exibir a saída do console
-      const outputElement = document.getElementById('output');
-      outputElement.innerHTML = 'Saída do Console: ' + consoleOutput.join('<br>');
-
       // Exibir a resposta em um pop-up
-      window.alert(outputElement.innerText);
+      window.alert('Saída do Console: ' + consoleOutput.join('\n'));
     } catch (erro) {
       // Exibir erros, se houverem
       document.getElementById('output').innerHTML = 'Erro: ' + erro.message;
@@ -36,6 +32,7 @@ const ConsolePage = () => {
       console.log = originalConsoleLog;
     };
   };
+
 
   return ( 
     <div>
